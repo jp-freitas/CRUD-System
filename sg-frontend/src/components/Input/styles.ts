@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #232129;
+  background: #fff;
   border-radius: 10px;
-  border: 2px solid #232129;
-  padding: 16px;
+  border: 2px solid #003333;
+  padding: 14px;
   width: 100%;
-  color: #666360;
+  color: #003333;
 
   display: flex;
   align-items: center;
@@ -19,10 +19,10 @@ export const Container = styled.div`
     flex: 1;
     background: transparent;
     border: 0;
-    color: #f4ede8;
+    color: #003333;
 
     &::placeholder {
-      color: #666360;
+      color: #003333;
     }
   }
 
