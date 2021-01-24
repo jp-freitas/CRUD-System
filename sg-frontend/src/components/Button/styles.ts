@@ -5,9 +5,9 @@ export const Container = styled.button`
   background: #669999;
   height: 50px;
   border-radius: 10px;
-  border: 2px solid #003333;
+  border: 0;
   padding: 0 16px;
-  color: #003333;
+  color: #fff;
   width: 100%;
   font-weight: 500;
   margin-top: 16px;
@@ -16,6 +16,6 @@ export const Container = styled.button`
 
   &:hover {
     background: ${shade(0.2, '#669999')};
-    border: 0;
+    color: #003333;
   }
 `;

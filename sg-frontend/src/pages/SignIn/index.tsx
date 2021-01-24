@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiMail, FiLock } from 'react-icons/fi';
+import { FiMail, FiLock, FiLogIn } from 'react-icons/fi';
 
 import Input from '../../components/Input';
 import Button from '../../components/Button';
